@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/porter-scene.git/static/css/main.dc4d6ff2.css",
-    "main.js": "/porter-scene.git/static/js/main.1e6ef577.js",
-    "static/js/453.b314b9f2.chunk.js": "/porter-scene.git/static/js/453.b314b9f2.chunk.js",
-    "static/media/logo.svg": "/porter-scene.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/porter-scene.git/index.html",
-    "main.dc4d6ff2.css.map": "/porter-scene.git/static/css/main.dc4d6ff2.css.map",
-    "main.1e6ef577.js.map": "/porter-scene.git/static/js/main.1e6ef577.js.map",
-    "453.b314b9f2.chunk.js.map": "/porter-scene.git/static/js/453.b314b9f2.chunk.js.map"
+    "main.css": "/porter-scene/static/css/main.dc4d6ff2.css",
+    "main.js": "/porter-scene/static/js/main.6bc735b6.js",
+    "static/js/453.b314b9f2.chunk.js": "/porter-scene/static/js/453.b314b9f2.chunk.js",
+    "index.html": "/porter-scene/index.html",
+    "main.dc4d6ff2.css.map": "/porter-scene/static/css/main.dc4d6ff2.css.map",
+    "main.6bc735b6.js.map": "/porter-scene/static/js/main.6bc735b6.js.map",
+    "453.b314b9f2.chunk.js.map": "/porter-scene/static/js/453.b314b9f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4d6ff2.css",
-    "static/js/main.1e6ef577.js"
+    "static/js/main.6bc735b6.js"
   ]
 }
