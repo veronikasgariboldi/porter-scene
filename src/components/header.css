@@ -1,0 +1,34 @@
+:root {
+    --darkred: #B32020;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&display=swap');
+
+.header-container {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    font-family: Hahmlet;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover {
+    color: var(--darkred);
+}
+
+.titel {
+    text-decoration: none;
+    color: #333;
+}
+

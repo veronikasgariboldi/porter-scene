@@ -1,0 +1,43 @@
+:root {
+    --darkred: #B32020;
+}
+
+
+.scene-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Georgia", serif;
+}
+
+.scene-header {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.scene-content {
+    text-align: center;
+}
+
+.stage-name {
+    font-weight: bold;
+    color: var(--darkred);
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.lines {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+.stage-notes {
+    font-style: italic;
+    color: gray;
+    margin: 10px 0;
+}

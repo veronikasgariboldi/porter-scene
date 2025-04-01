@@ -1,0 +1,43 @@
+.homepage {
+    font-family: "Georgia", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  
+  .homepage-containers {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    max-width: 1200px;
+    width: 100%;
+  }
+
+  
+  .summary-container, .theory-container {
+    flex: 1;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Make it responsive for smaller screens */
+  @media (max-width: 768px) {
+    .homepage-containers {
+      flex-direction: column;
+    }
+  }

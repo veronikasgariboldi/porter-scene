@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+
+.intro-containers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    text-align: center;
+    width: 100%;
+    animation: typing-appear 2.5s forwards;
+}
+
+@keyframes typing-appear {
+    0% { opacity: 0; clip-path: inset(0 100% 0 0); }
+    100% { opacity: 1; clip-path: inset(0 0 0 0); }
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.scene {
+    width: auto;
+    font-size: 58px;
+    color: #B32020;
+    font-family: "Homemade Apple";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.macbeth {
+    font-size: 58px;
+    color: #000;
+    font-family: "Georgia", serif;    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
