@@ -1,0 +1,26 @@
+:root {
+    --darkred: #B32020;
+}
+
+.scene-info {
+    font-family: "Georgia", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.scene-info-container {
+    flex: 1;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.scene-info-text {
+    color: var(--darkred);
+    line-height: 1.6;
+}

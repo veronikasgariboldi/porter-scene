@@ -1,5 +1,8 @@
 import "./home.css"
-import Homepage from "../components/homepage";
+import ShortSummary from "../components/short-summary";
+import Why from "../components/why";
+import SceneInfo from "../components/scene-info";
+import Theory from "../components/theory";
 
 function Home () {
     return (
@@ -12,7 +15,14 @@ function Home () {
             </div>
             <div className="home-page">
                 <div className="home-page-container">
-                    <Homepage />
+                    <div className="second-row">
+                        <Why />
+                        <SceneInfo />
+                    </div> 
+                    <div className="second-row">
+                        <ShortSummary />
+                        <Theory />
+                    </div>
                 </div>
             </div>
         </div>
