@@ -53,3 +53,8 @@
     width: 100%;
     margin-top: 2%;
 }
+
+.special-width {
+    width: 40%; 
+    flex: 0 0 auto; /* This prevents flex from altering the width */
+}

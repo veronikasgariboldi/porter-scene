@@ -20,8 +20,10 @@ function Home () {
                         <SceneInfo />
                     </div> 
                     <div className="second-row">
-                        <ShortSummary />
-                        <Theory />
+                        <div className="special-width">
+                            <ShortSummary />
+                        </div>
+                            <Theory />
                     </div>
                 </div>
             </div>

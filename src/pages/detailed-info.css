@@ -1,0 +1,61 @@
+:root {
+    --darkred: #B32020;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+.detailed-info-title {
+    font-size: 36px;
+    color: #000;
+    font-family: "Georgia", serif;    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detailed-info-scene {
+    width: auto;
+    font-size: 36px;
+    color: #B32020;
+    font-family: "Homemade Apple";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.detailed-info-intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    text-align: center;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.detailed-info-subtitle {
+    font-size: 14px;
+    color: #7b7b7b;
+    font-family: "Georgia", serif;    
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 0;
+    line-height: normal;
+}
+
+.filled-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.half-width {
+    width: 49.5%; /* Using 49.5% instead of 50% to account for the gap */
+    flex: 0 0 auto; /* This prevents flex from altering the width */
+}

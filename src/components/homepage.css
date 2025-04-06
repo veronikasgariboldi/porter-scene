@@ -16,6 +16,8 @@
 .summary-container, .theory-container {
   flex: 1;
   padding: 1.5rem;
+  flex-direction: row;
+  align-items: center;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: #fff;
@@ -31,4 +33,63 @@ h1 {
 p {
   color: #555;
   line-height: 1.6;
+}
+
+.summary-img {
+  height: 250px;
+  width: 250px;
+  background: url(../../public/MACBETH.jpg) no-repeat center center;
+  background-size: cover; 
+  flex: 0.3; /* Takes up 30% of the container width */
+  border-radius: 8px;
+}
+
+.summary-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.summary-text {
+  flex: 0.7; /* Takes up 70% of the container width */
+}
+
+
+
+
+/* Table styles */
+.character-table {
+  width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
+  overflow-wrap: break-word;
+}
+
+.character-container {
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.character-table th, 
+.character-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  overflow-wrap: break-word;
+}
+
+.character-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  color: #333;
+}
+
+.character-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Fix typo in your class name */
+.table-category {
+  font-weight: bold;
 }

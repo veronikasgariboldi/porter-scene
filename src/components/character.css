@@ -1,0 +1,70 @@
+.homepage {
+    font-family: "Georgia", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+    
+  .homepage-containers {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  
+  }
+  
+  .character-table {
+    width: 100%;
+    max-width: 100%;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+  }
+  
+  .character-container {
+    padding: 0 1rem;
+    width: 100%;
+  }
+  
+  .character-table th, 
+  .character-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    overflow-wrap: break-word;
+  }
+  
+  .character-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .character-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Fix typo in your class name */
+  .table-category {
+    font-weight: bold;
+  }
+
+  /* Make the Character column narrower */
+.character-table th:first-child,
+.character-table td:first-child {
+    width: 15%; /* You can adjust this percentage as needed */
+}
+
+/* Optionally distribute the remaining space among other columns */
+.character-table th:not(:first-child),
+.character-table td:not(:first-child) {
+    width: 28.33%; /* Roughly divides remaining space (85%) among 3 columns */
+}
+
+
+.character-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
