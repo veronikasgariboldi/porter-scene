@@ -55,7 +55,9 @@ p {
   flex: 0.7; /* Takes up 70% of the container width */
 }
 
-
+.bold {
+  font-weight: bold;
+}
 
 
 /* Table styles */
