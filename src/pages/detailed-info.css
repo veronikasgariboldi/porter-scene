@@ -59,3 +59,12 @@
     width: 49.5%; /* Using 49.5% instead of 50% to account for the gap */
     flex: 0 0 auto; /* This prevents flex from altering the width */
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    width: 100%;
+
+}

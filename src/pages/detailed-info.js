@@ -3,6 +3,7 @@ import Summary from "../components/summary";
 import Characters from "../components/characters";
 import Movies from "../components/movies";
 import Theory from "../components/theory";
+import Why from "../components/why";
 
 
 function DetailedInfo () {
@@ -23,6 +24,9 @@ function DetailedInfo () {
                     <div className="half-width">
                         <Theory />
                     </div>
+                </div>
+                <div className="container">
+                    <Why />
                 </div>
             </div>
         </div>

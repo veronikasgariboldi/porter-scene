@@ -1,0 +1,32 @@
+:root {
+    --darkred: #B32020;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&display=swap');
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn {
+    background-color: var(--darkred);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Hahmlet', sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:active {
+    background-color: #B32020;
+    transform: scale(0.95);
+}
+.btn:hover {
+    background-color: #A32020;
+    transform: scale(1.05);
+}

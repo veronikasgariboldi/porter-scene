@@ -3,6 +3,8 @@ import ShortSummary from "../components/short-summary";
 import Why from "../components/why";
 import SceneInfo from "../components/scene-info";
 import Theory from "../components/theory";
+import Button from "../components/button";
+import Footer from "../components/footer";
 
 function Home () {
     return (
@@ -25,7 +27,14 @@ function Home () {
                         </div>
                             <Theory />
                     </div>
+                    <div className="Button-container">
+                    <Button to="/detailed-info">Do you want to know more?</Button>
+                    </div>
                 </div>
+                <div className="footer">
+                    <Footer/>
+                </div>
+
             </div>
         </div>
     )

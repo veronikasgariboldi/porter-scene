@@ -1,0 +1,30 @@
+:root {
+    --darkred: #B32020;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&display=swap');
+
+
+p {
+    color: #8c8c8c;
+}
+.footer {
+    margin-top: 5%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Hahmlet;
+}
+
+hr {
+    width: 50%;
+    height: 1px;
+    color: #8c8c8c;
+    background-color: #8c8c8c;
+    border: none;
+}
