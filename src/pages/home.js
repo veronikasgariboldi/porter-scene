@@ -31,10 +31,6 @@ function Home () {
                     <Button to="/detailed-info">Do you want to know more?</Button>
                     </div>
                 </div>
-                <div className="footer">
-                    <Footer/>
-                </div>
-
             </div>
         </div>
     )

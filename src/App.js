@@ -4,6 +4,7 @@ import './App.css';
 import Scene from './pages/scene';
 import Header from './components/header';
 import DetailedInfo from './pages/detailed-info';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <Route path="/scene" element={<Scene/>} />
         <Route path="/detailed-info" element={<DetailedInfo/>} />
       </Routes>
+      <div className="footer">
+        <Footer/>
+      </div>
     </HashRouter>
   );
 }
